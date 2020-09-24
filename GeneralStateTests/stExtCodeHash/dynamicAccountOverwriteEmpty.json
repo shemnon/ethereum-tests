@@ -2,9 +2,9 @@
     "dynamicAccountOverwriteEmpty" : {
         "_info" : {
             "comment" : "EXTCODEHASH of empty account, then CREATE or CREATE2 over it, EXTCODEHASH again. This should check that code hash cache is correctly updated during the transaction.",
-            "filling-rpc-server" : "Geth-1.9.12-unstable-97243f3a-20200316",
-            "filling-tool-version" : "retesteth-0.0.2+commit.4bd2af85.Linux.g++",
-            "lllcversion" : "Version: 0.5.14-develop.2019.11.27+commit.8f259595.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/dynamicAccountOverwriteEmptyFiller.yml",
             "sourceHash" : "41865967e75c85cbcaaf8c235d20d019924cc961eccfae9ce0adf9228b6d1c21"
         },
@@ -17,6 +17,17 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0xbad63f6b8af303975f466d02583fce1b011505b874156e9d3a16f13d9221cb77",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

@@ -2,9 +2,9 @@
     "stackLimitGas_1024" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "Geth-1.9.6-unstable-63b18027-20190920",
-            "filling-tool-version" : "retesteth-0.0.1+commit.0ae18aef.Linux.g++",
-            "lllcversion" : "Version: 0.5.12-develop.2019.9.13+commit.2d601a4f.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stMemoryTest/stackLimitGas_1024Filler.json",
             "sourceHash" : "f631ad59f1c27605412cdfc577b6be17bf61b04d05fd2e9ee8731a6f803644e1"
         },
@@ -17,6 +17,17 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x014cef2fbd2d799e796e74b36bfeaeed37468d877fb2a30089120ba0a1c992db",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

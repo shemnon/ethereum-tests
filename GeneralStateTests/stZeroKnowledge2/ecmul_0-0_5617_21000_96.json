@@ -2,9 +2,9 @@
     "ecmul_0-0_5617_21000_96" : {
         "_info" : {
             "comment" : "Puts the point (0, 0) and the factor 21888242871839275222246405745257275088548364400416034343698204186575808495617 into the ECMUL precompile, truncating or expanding the input data to 96 bytes. Gives the execution 21000 bytes",
-            "filling-rpc-server" : "Geth-1.9.14-unstable-8cf83419-20200512",
-            "filling-tool-version" : "retesteth-0.0.3+commit.672a84dd.Linux.g++",
-            "lllcversion" : "Version: 0.5.14-develop.2019.11.27+commit.8f259595.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stZeroKnowledge2/ecmul_0-0_5617_21000_96Filler.json",
             "sourceHash" : "c692f0ae13fafb8d95b5520cbee495d96c726b10463c55bd8ce8054d6d3d71bc"
         },
@@ -17,6 +17,44 @@
             "previousHash" : "0xc6745cf3cada515bbfb9573261c82547e0b8f9e3d5dd382e464704a84e47b5ad"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x001b863b5e4bf1646fc185c8000798502d48ecd039a5cf11b579067fe2a1d717",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 1,
+                        "value" : 0
+                    },
+                    "hash" : "0xb8d268ffb78b9a370f474329f9cd51647d6ceb529b5a7b006e924d3a42b0da61",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 2,
+                        "value" : 0
+                    },
+                    "hash" : "0xb8d268ffb78b9a370f474329f9cd51647d6ceb529b5a7b006e924d3a42b0da61",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 3,
+                        "value" : 0
+                    },
+                    "hash" : "0xb8d268ffb78b9a370f474329f9cd51647d6ceb529b5a7b006e924d3a42b0da61",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

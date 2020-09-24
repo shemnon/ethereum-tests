@@ -2,9 +2,9 @@
     "selfBalanceCallTypes" : {
         "_info" : {
             "comment" : "SELFBALANCE tests inside CALL, DELEGATECALL, and CALLCODE",
-            "filling-rpc-server" : "besu/v1.3.7/osx-x86_64/corretto-java-11",
-            "filling-tool-version" : "retesteth-0.0.1+commit.f19c40da.Darwin.appleclang",
-            "lllcversion" : "Version: 0.5.12-develop.2019.9.16+commit.2d601a4f.Darwin.appleclang",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSelfBalance/selfBalanceCallTypesFiller.json",
             "sourceHash" : "2093ce19cc0abdb4b5c1d3b295fff6b756b41eddcb569b592a2e4cc86324ea5d"
         },
@@ -17,6 +17,35 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x888ed2cce362374b192fe08104c734ad7d94650240e2a0a5d104486e5049be69",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x73d13067705bda033dccfbbd9c0a3b80d703eb0e4e057a955472ae9d77e1a566",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 2,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x35d7013c66a7a2792fa162e84a71c29e195b525207b89f75fba43f376b4ca013",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

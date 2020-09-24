@@ -2,9 +2,9 @@
     "ExtCodeCopyTests" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "Geth-1.9.6-unstable-63b18027-20190920",
-            "filling-tool-version" : "retesteth-0.0.1+commit.0ae18aef.Linux.g++",
-            "lllcversion" : "Version: 0.5.12-develop.2019.9.13+commit.2d601a4f.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCodeCopyTest/ExtCodeCopyTestsFiller.json",
             "sourceHash" : "68077c4d5b4eccb625aaa3bca2b66a709938f8509cce9064e2771170903004d1"
         },
@@ -17,6 +17,17 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0xfd0794792637a71b0234ef95e8f832b5a8e79adcd5d21dc6514f41010bf44ffe",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

@@ -2,9 +2,9 @@
     "create2collisionCode" : {
         "_info" : {
             "comment" : "create2 generates an account that already exists and has not empty code",
-            "filling-rpc-server" : "Geth-1.9.6-unstable-63b18027-20190920",
-            "filling-tool-version" : "retesteth-0.0.1+commit.0ae18aef.Linux.g++",
-            "lllcversion" : "Version: 0.5.12-develop.2019.9.13+commit.2d601a4f.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCreate2/create2collisionCodeFiller.json",
             "sourceHash" : "652b1604d69fc15be2bd72641e5ca4e71794ad34ac0d6bab20e1398bf927ee67"
         },
@@ -17,6 +17,35 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0xe4b20c46bd87dd29dc60410cab99f6808b244cd9c19a91c11bb97d20bd05ca04",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0xc66a37a84d9bcc1c91e4cb4a6ca4e1fdda9cd453c34406168ecf80a02eb73f49",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 2,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x033358af7e3a77b7622cc02f44d1430e9acacb9f37b32237b02245752d432a99",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

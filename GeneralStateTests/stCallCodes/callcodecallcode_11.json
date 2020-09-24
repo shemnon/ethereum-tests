@@ -2,9 +2,9 @@
     "callcodecallcode_11" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "Geth-1.9.14-unstable-8cf83419-20200512",
-            "filling-tool-version" : "retesteth-0.0.4-refactoring+commit.07b4b359.Linux.g++",
-            "lllcversion" : "Version: 0.5.14-develop.2019.11.27+commit.8f259595.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/callcodecallcode_11Filler.json",
             "sourceHash" : "349ffa970430110af9317927b646a0ac3b07657182efa5a5ae3300ef3381ed0f"
         },
@@ -17,6 +17,17 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x648dbc7a8e0bd2d7e6a4d0bdc3a5ed15d0b43c1578b2539d256502314208b6b0",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

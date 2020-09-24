@@ -2,9 +2,9 @@
     "call_OOG_additionalGasCosts2" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "Geth-1.9.14-unstable-8cf83419-20200512",
-            "filling-tool-version" : "retesteth-0.0.4-refactoring+commit.07b4b359.Linux.g++",
-            "lllcversion" : "Version: 0.5.14-develop.2019.11.27+commit.8f259595.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/call_OOG_additionalGasCosts2Filler.json",
             "sourceHash" : "7d90e3c5e28162453084e5ec11226334096df3dc41d44c114cf1c89cbb834900"
         },
@@ -17,6 +17,17 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x0d26597ec260f7a8c15c74a32a9d2d6975b4d1788cbe82137874fb309f00b5a6",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

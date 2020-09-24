@@ -2,9 +2,9 @@
     "extCodeHashSubcallSuicide" : {
         "_info" : {
             "comment" : "transaction to B | B call to A | A delegatecall/callcode to C (C has selfdestruct) | A selfdestructed. returned to B. now we could check extcodehash of A (in account B code)",
-            "filling-rpc-server" : "Geth-1.9.12-unstable-97243f3a-20200316",
-            "filling-tool-version" : "retesteth-0.0.2+commit.4bd2af85.Linux.g++",
-            "lllcversion" : "Version: 0.5.14-develop.2019.11.27+commit.8f259595.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stExtCodeHash/extCodeHashSubcallSuicideFiller.yml",
             "sourceHash" : "bb03bf5fd8e7aa26be0d583028c410b3f84305b735224fa9260c5d5e59273279"
         },
@@ -17,6 +17,17 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x690d6fd4e274b637a2d8af7d48f6df55e1f261057047ee56d7e30069c4f2a837",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

@@ -2,9 +2,9 @@
     "returndatasize_initial_zero_read" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "Geth-1.9.6-unstable-63b18027-20190920",
-            "filling-tool-version" : "retesteth-0.0.1+commit.0ae18aef.Linux.g++",
-            "lllcversion" : "Version: 0.5.12-develop.2019.9.13+commit.2d601a4f.Linux.g++",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stReturnDataTest/returndatasize_initial_zero_readFiller.json",
             "sourceHash" : "951d8497ef08433246df5d66e24aa411d0edfe1f75bfcd616e9bd393924b6e30"
         },
@@ -17,6 +17,26 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x35c2a14f329e2470ba17694be4a6f0c3321b127389987e230998064e35cf9fa2",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x737225b311b99d42ad6e44f542026d8f91d7d7ae39dcf7d55de4336c1f5effc1",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {

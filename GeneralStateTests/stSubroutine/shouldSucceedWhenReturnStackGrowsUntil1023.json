@@ -2,9 +2,9 @@
     "shouldSucceedWhenReturnStackGrowsUntil1023" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "besu/v1.4.7/osx-x86_64/adoptopenjdk-java-13",
-            "filling-tool-version" : "retesteth-0.0.2+commit.e8018889.Darwin.appleclang",
-            "lllcversion" : "Version: 0.5.14-develop.2020.6.3+commit.f07a86ee.mod.Darwin.appleclang",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSubroutine/shouldSucceedWhenReturnStackGrowsUntil1023Filler.json",
             "sourceHash" : "cb50d795d877a84789f663ebae3be01ec1e93ac35422013bdb2b248415ae9420"
         },
@@ -24,7 +24,7 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0xb79452f6dd82f1180957dccb2719157a4012205be03a9c00227cc0f78f1893de",
+                    "hash" : "0xd75949a869c5ce1f9f93fd5fc9c8193e7517ddbe70f934ea81697677c2011bd7",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ]

@@ -2,9 +2,9 @@
     "ByZero" : {
         "_info" : {
             "comment" : "DIV/SDIV/MOD/SMOD by zero tests",
-            "filling-rpc-server" : "Geth-1.9.7-unstable-9a770659-20191018",
-            "filling-tool-version" : "retesteth-0.0.1+commit.e4b931fe.Darwin.appleclang",
-            "lllcversion" : "Error getting LLLC Version",
+            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
+            "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stSolidityTest/ByZeroFiller.json",
             "sourceHash" : "2a2237a74b4584e0a2541cd8fc4a3b3c59191aa957393e5cb5b68a11b15e5d02"
         },
@@ -17,6 +17,44 @@
             "previousHash" : "0x5e20a0453cecd065ea59c37ac63e079ee08998b6045136a8ce6635c7912ec0b6"
         },
         "post" : {
+            "Berlin" : [
+                {
+                    "indexes" : {
+                        "data" : 0,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x2724d01d674768d15e8cf48409678deb5486ba88159446e3bb821e7d6e306331",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x2724d01d674768d15e8cf48409678deb5486ba88159446e3bb821e7d6e306331",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 2,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x2724d01d674768d15e8cf48409678deb5486ba88159446e3bb821e7d6e306331",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 3,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0x2724d01d674768d15e8cf48409678deb5486ba88159446e3bb821e7d6e306331",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                }
+            ],
             "Istanbul" : [
                 {
                     "indexes" : {
