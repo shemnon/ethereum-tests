@@ -2,7 +2,7 @@
     "callcallcodecall_010_SuicideEnd" : {
         "_info" : {
             "comment" : "",
-            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "filling-rpc-server" : "besu/v1.5.6-dev-25c3f5b1/osx-x86_64/oracle_openjdk-java-14",
             "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
             "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/callcallcodecall_010_SuicideEndFiller.json",

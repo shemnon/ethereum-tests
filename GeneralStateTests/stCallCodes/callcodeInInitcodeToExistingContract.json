@@ -1,12 +1,12 @@
 {
     "callcodeInInitcodeToExistingContract" : {
         "_info" : {
-            "comment" : "",
-            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "comment" : "callcode inside create/create2 contract init to existing contract",
+            "filling-rpc-server" : "besu/v1.5.6-dev-25c3f5b1/osx-x86_64/oracle_openjdk-java-14",
             "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
             "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/callcodeInInitcodeToExistingContractFiller.json",
-            "sourceHash" : "b556c564964afbbe05c7aea6241592626ea600af09bec08550d831839a8e15e3"
+            "sourceHash" : "dce9f27a56c8d485d8a3140f7b1dad31932290cb51997302ca56687e88dd9cfd"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -24,7 +24,16 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0x314bc1d6e37f4195d21c6babc788be5a79cbc68aaad1d954559d447a4a569c13",
+                    "hash" : "0x72defd130998e2793389d4ac933f208e22d3aa3023951bcb0f87ee0ab79db015",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0xe34e8313dbaea62089628c1814f2122a42ad40448ecd9abba845aa07c0161a55",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ],
@@ -35,7 +44,16 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0x7ceff239898c20f60e810bcb8823d00ceb4b9b9409b4dca228e9f2b47126c614",
+                    "hash" : "0x64c3a0c6c175ce3d3b651dbf43576f12f118c83604d17f046a7019547857765d",
+                    "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
+                },
+                {
+                    "indexes" : {
+                        "data" : 1,
+                        "gas" : 0,
+                        "value" : 0
+                    },
+                    "hash" : "0xbbe84beba0ea97edaf8cd5003344e70cb40cd09f0cade3cbd048ba61a79c5b33",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ]
@@ -43,21 +61,28 @@
         "pre" : {
             "0x1000000000000000000000000000000000000000" : {
                 "balance" : "0x2710",
-                "code" : "0x7f6040600060406000600073945304eb96065b2a98b57a48a06ae28d285a71b5626000527f0186a0f260005500000000000000000000000000000000000000000000000000602052604060006001f000",
+                "code" : "0x602780600f60003960006001f000fe6000600060006000600173100000000000000000000000000000000000000161c350f260015500",
                 "nonce" : "0x00",
                 "storage" : {
                 }
             },
             "0x1000000000000000000000000000000000000001" : {
-                "balance" : "0x03e8",
-                "code" : "0x6460016000556000526005601b6001f000",
+                "balance" : "0x00",
+                "code" : "0x600160025500",
                 "nonce" : "0x00",
                 "storage" : {
                 }
             },
-            "0x945304eb96065b2a98b57a48a06ae28d285a71b5" : {
+            "0x1100000000000000000000000000000000000000" : {
                 "balance" : "0x00",
-                "code" : "0x600160025500",
+                "code" : "0x60006000600060006000600035620493e0f100",
+                "nonce" : "0x00",
+                "storage" : {
+                }
+            },
+            "0x2000000000000000000000000000000000000000" : {
+                "balance" : "0x2710",
+                "code" : "0x6000602780601160003960006001f500fe6000600060006000600173100000000000000000000000000000000000000161c350f260015500",
                 "nonce" : "0x00",
                 "storage" : {
                 }
@@ -72,15 +97,16 @@
         },
         "transaction" : {
             "data" : [
-                "0x"
+                "0x0000000000000000000000001000000000000000000000000000000000000000",
+                "0x0000000000000000000000002000000000000000000000000000000000000000"
             ],
             "gasLimit" : [
-                "0x06e9d9"
+                "0x0f4240"
             ],
             "gasPrice" : "0x01",
             "nonce" : "0x00",
             "secretKey" : "0x45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "0x1000000000000000000000000000000000000000",
+            "to" : "0x1100000000000000000000000000000000000000",
             "value" : [
                 "0x00"
             ]

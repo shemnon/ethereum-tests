@@ -1,12 +1,12 @@
 {
     "call_OOG_additionalGasCosts2" : {
         "_info" : {
-            "comment" : "",
-            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "comment" : "call(oog during init) ->  code ",
+            "filling-rpc-server" : "besu/v1.5.6-dev-25c3f5b1/osx-x86_64/oracle_openjdk-java-14",
             "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
             "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/call_OOG_additionalGasCosts2Filler.json",
-            "sourceHash" : "7d90e3c5e28162453084e5ec11226334096df3dc41d44c114cf1c89cbb834900"
+            "sourceHash" : "72b39a0021c709a50f2089f51120af17c83b6d697c0d639a2cf64d4dde48f82b"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -24,7 +24,7 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0x0d26597ec260f7a8c15c74a32a9d2d6975b4d1788cbe82137874fb309f00b5a6",
+                    "hash" : "0x3db67ab8f282707edcc01ddd4e04c40d36f0d12213ae84b84699d9e20cb6faa7",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ],
@@ -35,7 +35,7 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0x0d26597ec260f7a8c15c74a32a9d2d6975b4d1788cbe82137874fb309f00b5a6",
+                    "hash" : "0x3db67ab8f282707edcc01ddd4e04c40d36f0d12213ae84b84699d9e20cb6faa7",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ]
@@ -43,14 +43,14 @@
         "pre" : {
             "0x1000000000000000000000000000000000000000" : {
                 "balance" : "0x0de0b6b3a7640000",
-                "code" : "0x60406000604060006001731000000000000000000000000000000000000001611770f100",
+                "code" : "0x60406000604060006001731000000000000000000000000000000000000001611770f160005500",
                 "nonce" : "0x00",
                 "storage" : {
                 }
             },
             "0x1000000000000000000000000000000000000001" : {
                 "balance" : "0x00",
-                "code" : "0x",
+                "code" : "0x6000",
                 "nonce" : "0x00",
                 "storage" : {
                 }

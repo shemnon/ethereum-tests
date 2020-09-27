@@ -1,12 +1,12 @@
 {
     "callcallcode_01_OOGE" : {
         "_info" : {
-            "comment" : "",
-            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "comment" : "call -> callcode -> code oog ",
+            "filling-rpc-server" : "besu/v1.5.6-dev-25c3f5b1/osx-x86_64/oracle_openjdk-java-14",
             "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
             "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/callcallcode_01_OOGEFiller.json",
-            "sourceHash" : "5be2db949cbdaf88f6cffc74da0a7009459a0f78af91f9c1b2755da69154fd33"
+            "sourceHash" : "554bb9d01370f003f919bd8cbda2e8f6d5c4691c5d5baa01d351442aaf36fdc9"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -24,7 +24,7 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0x59a680643dbe95e21446ccded8473675e602887e2477c42724527b8c05e6fb7d",
+                    "hash" : "0x16798540a881997fff6dcb6956dafc6d7e0ce9920bb93140dd8344da00b670ff",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ],
@@ -35,7 +35,7 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0xc40d0446372250927aab37372a534f16a4afb1970eedc873e01e10492586dcca",
+                    "hash" : "0xee035fb22baf5459f0838fbc7b8b5bf4483e029ed34838751a18ec4a164163be",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ]
@@ -43,21 +43,21 @@
         "pre" : {
             "0x1000000000000000000000000000000000000000" : {
                 "balance" : "0x0de0b6b3a7640000",
-                "code" : "0x60406000604060006000731000000000000000000000000000000000000001620249f0f160005500",
+                "code" : "0x60406000604060006000731000000000000000000000000000000000000001620c3500f160005500",
                 "nonce" : "0x00",
                 "storage" : {
                 }
             },
             "0x1000000000000000000000000000000000000001" : {
                 "balance" : "0x00",
-                "code" : "0x60406000604060006000731000000000000000000000000000000000000002614e34f260015500",
+                "code" : "0x60406000604060006000731000000000000000000000000000000000000002620927c0f26001556001600b5500",
                 "nonce" : "0x00",
                 "storage" : {
                 }
             },
             "0x1000000000000000000000000000000000000002" : {
                 "balance" : "0x00",
-                "code" : "0x6001600255600160025200",
+                "code" : "0x6001600255622fffff60002000",
                 "nonce" : "0x00",
                 "storage" : {
                 }
@@ -75,7 +75,7 @@
                 "0x"
             ],
             "gasLimit" : [
-                "0x029fe0"
+                "0x0f4240"
             ],
             "gasPrice" : "0x01",
             "nonce" : "0x00",

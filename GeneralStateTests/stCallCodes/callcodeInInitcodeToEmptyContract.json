@@ -1,12 +1,12 @@
 {
     "callcodeInInitcodeToEmptyContract" : {
         "_info" : {
-            "comment" : "",
-            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "comment" : "callcode inside create contract init to non-existent contract",
+            "filling-rpc-server" : "besu/v1.5.6-dev-25c3f5b1/osx-x86_64/oracle_openjdk-java-14",
             "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
             "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/callcodeInInitcodeToEmptyContractFiller.json",
-            "sourceHash" : "88dda4b21dc31f8a1367c976768082df99b9c7589965c9490d00fba7fe9b27b2"
+            "sourceHash" : "e7beb2e5b71f69d548ffc1c61c6b78df9033fe945aec9385960e80f4285fe97f"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",

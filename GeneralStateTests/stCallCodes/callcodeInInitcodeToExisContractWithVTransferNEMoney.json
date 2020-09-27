@@ -1,12 +1,12 @@
 {
     "callcodeInInitcodeToExisContractWithVTransferNEMoney" : {
         "_info" : {
-            "comment" : "",
-            "filling-rpc-server" : "besu/v1.5.6-dev-e332adeb/osx-x86_64/oracle_openjdk-java-14",
+            "comment" : "callcode inside create contract init to existing contract. callcode with value transfer but not enough balance",
+            "filling-rpc-server" : "besu/v1.5.6-dev-25c3f5b1/osx-x86_64/oracle_openjdk-java-14",
             "filling-tool-version" : "retesteth-0.0.8-docker+commit.8c77653c.Linux.g++",
             "lllcversion" : "Version: 0.5.14-develop.2020.9.22+commit.9189ad7a.Linux.g++",
             "source" : "src/GeneralStateTestsFiller/stCallCodes/callcodeInInitcodeToExisContractWithVTransferNEMoneyFiller.json",
-            "sourceHash" : "68b0d6fb85e15c5a9f2654700caf4207877be0a809b877e34696402844f8d116"
+            "sourceHash" : "37835971d70dff1c2f4c1f8725f36bd69bf1322af0353140501b4c12e34ef018"
         },
         "env" : {
             "currentCoinbase" : "0x2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
@@ -24,7 +24,7 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0x6b71e0c5e2ac0e935e8438b948228f6d976441fbec39ed71b1cc9a43c120bf3a",
+                    "hash" : "0x307f9b0846cec52384727ee3a8a90e1ca50ca0dd5c19bc24e8267fab7e80017c",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ],
@@ -35,7 +35,7 @@
                         "gas" : 0,
                         "value" : 0
                     },
-                    "hash" : "0xfca9390a8113caab0de7b8fafdff1454ae4ecc00dbc29272da7b546be6a1f705",
+                    "hash" : "0xa01ebec1b509b23c711719dc550dab744110f544940c782c6d86cbe0c1c13df8",
                     "logs" : "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347"
                 }
             ]
@@ -43,12 +43,12 @@
         "pre" : {
             "0x1000000000000000000000000000000000000000" : {
                 "balance" : "0x2710",
-                "code" : "0x7f6040600060406000600573945304eb96065b2a98b57a48a06ae28d285a71b5626000527f0186a0f260005500000000000000000000000000000000000000000000000000602052604060006001f000",
+                "code" : "0x602880600f60003960006000f000fe600060006000600060017310000000000000000000000000000000000000016207a120f260015500",
                 "nonce" : "0x00",
                 "storage" : {
                 }
             },
-            "0x945304eb96065b2a98b57a48a06ae28d285a71b5" : {
+            "0x1000000000000000000000000000000000000001" : {
                 "balance" : "0x00",
                 "code" : "0x600160025500",
                 "nonce" : "0x00",
@@ -68,7 +68,7 @@
                 "0x"
             ],
             "gasLimit" : [
-                "0x06e9d9"
+                "0x0f4240"
             ],
             "gasPrice" : "0x01",
             "nonce" : "0x00",
